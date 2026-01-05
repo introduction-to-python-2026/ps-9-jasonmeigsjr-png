@@ -1,9 +1,5 @@
 import pandas as pd
 
-df = pd.read_csv('parkinsons.csv')
-df=df.dropna()
-df.head()
-
 selected_features = ['MDVP:Fo(Hz)', 'MDVP:Jitter(%)']
 output_feature = 'status'
 
