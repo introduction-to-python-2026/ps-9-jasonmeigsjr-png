@@ -1,1 +1,2 @@
-
+features: ['RPDE','PPE']
+path: "moodle.joblib"
